@@ -5,13 +5,12 @@ description = "Clone of the incredible micrograd"
 authors = ["Maximilan Schebek <maxschebek@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-micrograd = "^0.1.0"
+python = "^3.9"
+pytest = "^6.2.5"
 
 [tool.poetry.dev-dependencies]
 black = "^21.10b0"
 pylint = "^2.11.1"
-pytest = "^6.2.5"
 ipython = "^7.29.0"
 ipykernel = "^6.5.0"
 matplotlib = "^3.5.1"
